@@ -1,0 +1,117 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/unsplash_rjfOdiB7k-E.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection-inner h2{
+    color: white;
+}
+.herosection-inner ul{
+    display: flex;
+justify-content: center;
+gap: 5px; 
+}
+.herosection-inner ul li a{
+    color: white;
+    line-height: 40px;
+}
+/* vission and mission */
+.vission{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap: 20px;
+}
+.vissionbox{
+width: 30%;
+}
+.vission .vissionbox h2{
+line-height: 70px;
+    font-size: 48px;
+    text-align: center;
+}
+.vission .vissionbox p{
+line-height: 36px;
+text-align: center;
+}
+/* siti sarah */
+.siti-container{
+    display: flex;
+    justify-content: space-between; 
+    padding: 40px 0; 
+}
+.siti-inner-section img{
+    display:block;
+border-radius: 150px 0px 150px 0px;
+
+}
+.siti-inner-section{
+    justify-content: space-around;
+    width: 50%;
+}
+.siti-inner-section p{
+    padding: 44px 0;
+line-height: 30px;
+text-align: left;
+
+}
+.siti-inner-section i{
+font-size:80px ;
+}
+/* review */
+.review-sec{
+    background-image: url(../images/unsplash_okVXy9tG3KY.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+    
+}
+.review{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    color: white;
+}
+.review-inner-box{
+   display: flex;
+   
+    
+}
+.review-inner-box i{
+    font-size: 50px;
+    padding-right: 15px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col h3{
+    text-align: center;
+}
+/* gallary */
+.gallery-section .gallery-header{
+    text-align: center;
+    padding: 40px 0;
+
+}
+.gallary{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}

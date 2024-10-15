@@ -1,0 +1,74 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection-inner h2{
+    color: white;
+}
+.herosection-inner ul{
+    display: flex;
+justify-content: center;
+gap: 5px; 
+}
+.herosection-inner ul li a{
+    color: white;
+    line-height: 40px;
+}
+/* get intouch */
+.intouch{
+    width: 100%;
+    display: flex;
+justify-content: space-between;
+margin: 40px auto;
+}
+.intouch form{
+    width: 580px;
+/* height: 668px; */
+border-radius: 10px;
+padding: 40px;
+box-shadow: 0px 4px 20px 0px #0000001A;
+
+}
+.intouch form input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: poppins;
+    
+
+}
+.intouch form textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 18px;
+    font-family: poppins;
+}
+.intouch form button{
+    width: 100% ;
+    margin-top: 20px;
+}
+.all{
+    width: 676px;
+    /* height: 612px; */
+}
+.all-details{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-detail{
+    padding-top: 30px;
+}
+.sub-detail a{
+    display: block;
+    color: black;
+}

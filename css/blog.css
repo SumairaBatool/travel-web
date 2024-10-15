@@ -1,0 +1,121 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/blog.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection-inner h2{
+    color: white;
+    text-align: center;
+}
+.herosection-inner ul{
+    display: flex;
+justify-content: space-around;
+gap: 5px; 
+}
+.herosection-inner ul li a i{
+    padding-right: 10px;
+}
+.herosection-inner ul li a{
+    color: white;
+    line-height: 40px;
+}
+/* recent post */
+.floating{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.withinfolat,
+.withfloat{
+    width: 812px;
+    height: 997px;
+    border-radius: 10px;
+}
+.float-left{
+    box-shadow: 0px 4px 20px 0px #0000001A;
+}
+.float-left p{
+    padding: 20px;
+}
+.sub-float-container{
+    width: 502px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sub-float-container .sub-float{
+    display: flex;
+padding: 18px 0;
+}
+.sub-float-container .sub-float img{
+ margin-right: 20px;
+    
+}
+.Catagories{
+    width: 502px;
+height: 382px;
+box-shadow: 0px 4px 20px 0px #0000001A;
+padding:20px ;
+border-radius: 10px;
+margin: 40px 0;
+}
+.Catagories .line{
+    width: 428px;
+height: 0px;
+border: 1px  solid #C4C4C4;
+margin-bottom: 20px;
+}
+.Catagories i{
+    margin-right: 10px;
+    color: #343434;
+    
+}
+.black-box{
+    background-color: black;
+    color: white;
+    width: 502px;
+height: 362px;
+border-radius: 10px;
+padding: 20px;
+line-height: 50px;
+
+}
+.black-box p{
+    padding: 40px 0;
+}
+.black-box a{
+    display: block;
+    color: white;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+/* leave a reply */
+.reply{
+    width: 815px;
+height: 946px;
+
+}
+.reply form input, textarea{
+    width: 100%;
+}
+textarea{
+    width: 815px;
+height: 275px;
+border-radius: 10px;
+border: 1px 0px 0px 0px;
+
+}
+.reply form input {
+    margin-top: 5px;
+}
+.reply form button{
+    margin-top: 40px;
+}

@@ -1,0 +1,119 @@
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pakage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.herosection-inner h2{
+    color: white;
+}
+.herosection-inner ul{
+    display: flex;
+justify-content: center;
+gap: 5px; 
+}
+.herosection-inner ul li a{
+    color: white;
+    line-height: 40px;
+}
+/* destination */
+.distination-header{
+    text-align: center;
+    padding: 40px 0;
+}
+.destination-card{
+    width: 30%;
+    box-shadow: 0px 5px 20px 0px #0000001A;
+    border-radius: 10px;
+
+}
+
+.sub-card-container{
+    padding:0 15px 30px 15px;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.card-container img{
+    width: 100%;
+}
+.bet{
+    display: flex;
+    justify-content: space-between;
+}
+.bet a{
+    color: black;
+}
+.card-container .icons{
+    color: #F4BC61;
+padding-top: 15px;
+}
+
+/* empty */
+.empty{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/airoplane.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+
+}
+.tips{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px 0;
+}
+.travel{
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    width: 522px;
+    /* height: 400px; */
+    margin-bottom: 20px;
+    padding: 33px;
+}
+.travel h3,
+.stories{
+    line-height: 40px;
+}
+.travel p,
+.stories p{
+    line-height: 50px;
+}
+.travel button,
+.stories button{
+    margin-top: 40px;
+}
+.stories{
+    width: 580px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    margin-bottom: 20px;
+
+
+}
+.stories img{
+    width: 100%;
+    height: 400px;
+}
+.sub-stories{
+    padding: 33px;
+}

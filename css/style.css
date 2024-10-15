@@ -1,0 +1,299 @@
+/* hero section */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.innertext {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    flex-direction: column;
+}
+.innertext p {
+    color: #CFCFCF;
+}
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 72px;
+    border: 1px solid #CFCFCF;
+    padding: 8px 6px;
+    margin-top: 28px;
+}
+
+.inputbox a {
+    display: flex;
+    color: #9B9B9B;
+    align-items: center;
+}
+
+.inputbox button {
+    background: #000000;
+    color: white;
+    border-radius: 28.43px;
+    border: 0px;
+    padding: 5px 16px;
+
+}
+
+.innertext p span {
+    font-size: 18px;
+    font-weight: var(--btn-anchor-headtwo-weight);
+    line-height: var(--para-lineheight);
+    color: #FFFFFF;
+}
+
+.inputbox a i {
+    font-size: 12px;
+}
+
+
+/* swiper slider */
+.swip-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   padding: 30px 0;
+}
+.swip-box{
+    max-width: 380px;
+}
+.swip-box img{
+    width: 100%;
+}
+.swip-try{
+    width: 100%;
+}
+.swip-try .less-greate{
+    display: flex;
+    justify-content: space-between;
+}
+.swip-try .less-greate i{
+    border-radius: 10px;
+    border: 1px solid #E8E8E8    
+}
+.swip-try .circle-icon{
+    display: flex;
+position: relative;
+justify-content: right;
+}
+.swip-try .circle-icon i{
+    position: absolute;
+ padding: 18px;
+border-radius: 50%;
+top: -25px;
+right: 20px;
+    box-shadow: 0px 4px 31px 0px #00000024;
+background-color: white;
+}
+.cent-img{
+    /* width: 442px; */
+    /* height: 471.05px; */
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px #0000001A;
+    /* padding: 20px 8px; */
+
+    
+}
+.cart-details{
+    padding:8px 6px 8px 0;
+}
+.slide-header h2 {
+
+    line-height: 70px;
+    text-align: center;
+}
+
+.slide-header p {
+    color: #9B9B9B;
+    text-align: center;
+
+}
+
+/* why choose us */
+.choos-header{
+    text-align: center;
+    padding-top:33px;
+}
+
+.choos-header h2 {
+   color: white;
+}
+
+.choos-header p {
+    line-height: var(--para-lineheight); 
+    color: white;
+}
+.choos-sec {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/choose-us.png);
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+}
+
+.choos-sec .choos-slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    left: 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.choos-box {
+    background: white;
+    justify-content: space-between;
+    box-shadow: 0px 8px 60px 0px #00000026;
+  width: 25%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.choos-box p{
+    font-size: 18px;
+    font-weight:var(--para-weight);
+    color: #858585;
+}
+.choose-icon {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    /* margin: 25px 0; */
+}
+.choose-icon i{
+    padding: 20px;
+}
+.choos-box a {
+    display: inline-block;
+    line-height: 27px;
+    color: black;
+    margin: 33px 0;
+}
+
+.choos-sec .less-greate{
+    display: flex;
+    justify-content: space-between;
+}
+.less-greate i{
+    display: flex;
+    color:  #737373;
+    background-color: #fff;
+    width: 69px;
+height: 50.11px;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+
+}
+
+/* our tour partner */
+
+.partner-header{
+    text-align: center;
+    margin:60px auto;
+}
+.partner-header h2{
+line-height: 70px;
+
+}
+.partner-sec{
+padding: 90px 0;
+}
+.partner-sec{
+    padding: 90px 0;
+}
+.partner-images {
+    display: flex;
+    justify-content:space-around;
+    padding: 0 auto;
+    gap: 20px;
+}
+.partner-images li{
+  
+}
+.partner-images li img{
+    width: 100%;
+
+
+}
+/* testminal */
+.testminal h3 {
+    font-size: 30px;
+    font-weight: var(--btn-anchor-headtwo-weight);
+    line-height: 70px;
+    letter-spacing: 0.14em;
+    text-align: left;
+    color: #626262;
+    ;
+
+}
+
+.testminal h2 {
+    line-height: 70px;
+    text-align: left;
+
+}
+.testminal p {
+    line-height: 40px;
+    text-align: left;
+}
+.review {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.review .review-box {
+    box-shadow: 0px 20px 60px 0px #0000001A;
+    padding: 50px ;
+    width: 32%;
+    margin-bottom: 20px ;
+}
+.review .review-box h4 {
+    text-align: center;
+    font-size: 24px;
+}
+.review .review-box .trev p {
+    text-align: center;
+    line-height: 12px;
+    font-size: 18px;
+
+}
+
+.review .review-box .client {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 18px;
+}
+.testminal .less-greate{
+display: flex;
+justify-content: right;
+gap: 66px;
+padding: 40px 0;
+
+}
+.testminal .less-greate i{
+box-shadow: 0px 8px 50px 0px #0000001A;
+
+}
+.testminal .review .review-box .icons{
+padding-top: 50px;
+color: #F4BC61;
+
+}

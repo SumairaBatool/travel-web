@@ -1,0 +1,195 @@
+@media (max-width:1024px) {
+        header nav ul{
+            display:none;
+        }
+        .line i{
+            display: block;
+        }
+        #inp:checked ~ .tab-list{
+            display: block;
+        }
+    /* header end */
+    /* comman fonts */
+    h1 {
+        font-size: 50px;
+
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    a,
+    button,
+    i {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+/* end comman */
+    .inputbox {
+        margin: 10px auto;
+    }
+
+    .choos-slider {
+        width: 100%;
+        top:50%;
+    }
+    .choos-box {
+      width: 35%;
+
+    }
+    .review .review-box {
+        width: 50%;
+    }
+    .repo-hide{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .web-foot {
+        flex-direction: column;
+    }
+    
+.subscribe .uppertext {
+    top: 30px;
+    left: 10%;
+}
+
+.subscribe .uppertext h2 {
+    line-height: 30px;
+
+}
+
+.subscribe .uppertext p {
+    line-height: 0px;
+    margin-bottom: 30px;
+    /* padding-top: 12px; */
+}
+.subbtn input {
+   line-height: 0;
+
+
+}
+
+.subbtn #btn {
+    padding: 18px 12px;
+}
+.review .review-box{
+    width: 100%;
+}
+
+.repo-mob-hide{
+    display: none;
+
+}
+.choos-slider {
+    top:10%;
+}
+.choos-box {
+    width: 50%;
+}
+.swip-box{
+    max-width: 580px;
+}
+.inputbox {
+
+    padding: 4px 6px;
+}
+}
+@media (max-width:425px) {
+    h1 {
+        font-size: 20px;
+       
+
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    a,
+    button,
+    i {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .testminal h2 {
+        line-height: 20px;
+    
+    }
+    .subbtn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .subbtn input {
+        font-size: 12px;
+        text-align: center;
+    
+    }
+    .subbtn #btn {
+        padding: 10px 12px;
+        margin-top: 10px;
+    }
+    .logo img,
+    .web-foot li img{
+        width: 250px;
+    }
+    .web-foot .web-footsec h3 {
+        line-height: 20px;
+    }
+    .review .review-box {
+        padding: 10px;
+    }
+    .testminal .review .review-box .icons {
+        padding-top: 10px;
+    }
+    .testminal p {
+        line-height: 20px;
+      
+    }
+    .web-foot li a {
+        line-height: 20px;
+    }
+    .subscribe .uppertext p {
+        line-height: 20px; 
+        padding-top: 10px;
+    }
+    .subscribe .uppertext p {
+        line-height: 20px;
+        margin-bottom: 10px; 
+    padding-top: 10px;
+    }
+    .testminal h3 {
+        font-size: 12px; 
+     line-height: 20px; 
+         letter-spacing: 0;
+    }
+    .testminal .less-greate {
+        padding: 20px 0;
+    }
+    .partner-sec {
+        padding: 20px 0;
+    }
+    .choos-box {
+        width: 90%;
+    }
+    .partner-header h2 {
+        line-height: 20px;
+    }
+    .partner-header {
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 20;
+    }
+}
